@@ -1,4 +1,4 @@
-class Solution {
+class Solution202 {
 
     public static int sumOfSquare(int n) {
         int sum = 0;
