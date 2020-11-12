@@ -9,7 +9,7 @@ The workspace contains two folders by default, where:
 - `src`: the folder to maintain sources
 - `lib`: the folder to maintain dependencies
 
-## Dependency Management
+## Dependency Management 
 
 The `JAVA DEPENDENCIES` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-pack/blob/master/release-notes/v0.9.0.md#work-with-jar-files-directly).
 
@@ -19,5 +19,6 @@ The `JAVA DEPENDENCIES` view allows you to manage your dependencies. More detail
 
 | Kiểu sort    |    Đặc điểm    | Điểm mạnh |    Điểm yếu   |
 | :---         |     :---:      |   :---:   |      ---:    |
-| git status   | git status     | git status    | git status    |
-| git diff     | git diff       | git diff      | git status    |
+| Selection Sort   | T[Best Case]= O(n), T[Worst Case]= θ(n²)   | sắp xếp nhanh với input đã sắp xếp    | kém hiệu quả khi input lớn    |
+| Bubble Sort    | T[Best Case] = O(n), T[Worst Case]= θ(n²) | sắp xếp nhanh với input đã sắp xếp | sắp xếp chậm |
+| Insertion Sort    | T[Best Case] = O(n), T[Worst Case]= θ(n²) | Tính ổn định, In-Place sort. | Chỉ hiệu quả khi N nhỏ |
